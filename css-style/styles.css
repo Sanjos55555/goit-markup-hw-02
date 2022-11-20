@@ -1,9 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
 }
 
-a {
+.social-links {
   text-decoration: none;
 }
 
@@ -15,6 +14,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .top-webstudio-discriptions-one {
@@ -27,6 +27,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: none;
 }
 
 .contacts-discripnions {
@@ -36,21 +38,14 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
-.contacts-discripnions {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
+.footer-address:hover,
 .nav-discriptions:hover,
 .contacts-discripnions:focus,
 .contacts-discripnions:hover {
-  color: crimson;
+  color:#2196f3;
 }
 
 .main-text {
@@ -62,6 +57,14 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.main-text-position-studio {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  position: relative;
 }
 
 .inf-description {
@@ -87,10 +90,21 @@ a {
   background-color: #2196f3;
 }
 
+.selection-for-portfolio {
+  cursor: pointer;
+  background: #f5f4fa;
+}
+
+.selection-for-portfolio:focus,
+.selection-for-portfolio:active,
+.selection-for-portfolio:hover {
+  color: white;
+  background-color: #2196f3;
+}
+
 .selection:focus,
 .selection:hover {
   color: white;
-  background-color: red;
 }
 
 .main-discription {
@@ -185,6 +199,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .down-webstudio-discription,
