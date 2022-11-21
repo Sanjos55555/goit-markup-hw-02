@@ -17,11 +17,16 @@ body {
   text-decoration: none;
 }
 
+.portfolio-photo-position {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .top-webstudio-discriptions-one {
   color: #000000;
 }
 
-.nav-discriptions {
+.nav-discription {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -31,7 +36,7 @@ body {
   text-decoration: none;
 }
 
-.contacts-discripnions {
+.contacts-discription {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -42,10 +47,8 @@ body {
 }
 
 .footer-address:hover,
-.nav-discriptions:hover,
-.contacts-discripnions:focus,
-.contacts-discripnions:hover {
-  color:#2196f3;
+.nav-discription:hover {
+  color: #2196f3;
 }
 
 .main-text {
@@ -67,7 +70,7 @@ body {
   position: relative;
 }
 
-.inf-description {
+.inf-discription {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -165,11 +168,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-
   color: #757575;
 }
 
-.name-discription {
+.name-discriptions {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -178,7 +180,7 @@ body {
   color: #212121;
 }
 
-.possition {
+.position {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
