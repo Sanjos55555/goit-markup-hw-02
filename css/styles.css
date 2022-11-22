@@ -1,5 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--color-white);
+}
+
+:root {
+  --color-blue: #2196f3;
+  --color-grey: #757575;
+  --color-white: #ffffff;
+  --bg-color: #2f303a;
 }
 
 .social-links {
@@ -8,7 +16,7 @@ body {
 
 .top-webstudio-discriptions-one,
 .top-webstudio-discriptions {
-  color: #2196f3;
+  color: var(--color-blue);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -17,17 +25,11 @@ body {
   text-decoration: none;
 }
 
-.portfolio-photo-position {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .top-webstudio-discriptions-one {
   color: #000000;
 }
 
 .nav-discription {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -37,87 +39,71 @@ body {
 }
 
 .contacts-discription {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-grey);
   text-decoration: none;
 }
 
+.contacts-discription:hover,
 .footer-address:hover,
 .nav-discription:hover {
-  color: #2196f3;
+  color: var(--color-blue);
+}
+
+.main-discription {
+  background-color: var(--bg-color);
+  width: 1600px;
 }
 
 .main-text {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  padding: 200px 452px 280px;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.main-text-position-studio {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  position: relative;
+  color: var(--color-white);
 }
 
 .inf-discription {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .selection {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: white;
+  margin: 350px 700px 200px 700px;
+  color: var(--color-white);
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--color-blue);
 }
 
 .selection-for-portfolio {
   cursor: pointer;
-  background: #f5f4fa;
+  background: var(--color-white);
 }
 
 .selection-for-portfolio:focus,
 .selection-for-portfolio:active,
 .selection-for-portfolio:hover {
-  color: white;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-blue);
 }
 
 .selection:focus,
 .selection:hover {
-  color: white;
-}
-
-.main-discription {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
+  color: var(--color-white);
 }
 
 .header-discription {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,7 +113,6 @@ body {
 }
 
 .secondary-discription {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -136,21 +121,17 @@ body {
   color: #212121;
 }
 
-.photo-discription {
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 262px;
+.photos-position {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.photo-block-one {
+.photos-discription {
   width: 370px;
   height: 294px;
 }
 
 .photo-text-style {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -158,21 +139,19 @@ body {
   color: #212121;
 }
 
-.photo-block-two {
+.photos-block-two {
   width: 270px;
   height: 260px;
 }
 
 .figcaption-discription {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--color-grey);
 }
 
-.name-discriptions {
-  font-family: 'Roboto', sans-serif;
+.name-discription {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -186,17 +165,14 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--color-grey);
 }
 .footer-discription {
-  font-family: 'Roboto', sans-serif;
   width: 1600px;
-  background: #2f303a;
+  background: var(--bg-color);
 }
 
 .footer-address {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -214,9 +190,9 @@ body {
 }
 
 .down-webstudio-discription {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .down-webstudio-discription-one {
-  color: #ffffff;
+  color: var(--color-white);
 }
