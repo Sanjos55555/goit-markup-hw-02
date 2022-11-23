@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   color: var(--color-white);
 }
 
@@ -160,7 +160,6 @@ body {
 }
 
 .position {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
